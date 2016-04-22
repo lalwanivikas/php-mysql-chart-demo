@@ -1,0 +1,43 @@
+html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #262626;
+  width: 650px;
+  margin: 10px auto;
+}
+.moreInfo {
+  text-align: center;
+}
+.extra {
+  display: inline-block;
+  text-align: center;
+  width: 31%;
+  vertical-align: middle;
+  font-size: 1.1rem;
+  color: #fff;
+  margin: 20px 0;
+  padding: 18px 0;
+  border: 3px solid #343436;
+  border-radius: 2px;
+}
+
+#year {
+  border: 3px solid #343436;
+}
+
+#export,
+#datachange {
+  cursor: pointer;
+  background-color: #343436;
+}
+
+#export:hover,
+#datachange:hover {
+  background-color: #4d4d50;
+}
