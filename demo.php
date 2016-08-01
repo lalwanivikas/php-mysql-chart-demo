@@ -90,7 +90,7 @@
  
     // Create data for Netflix
     // Form the SQL query that returns last five year's revenue data of Netflix
-    $strQueryNetflix = "SELECT Year, Revenue FROM Netflix";
+    $strQueryNetflix = "SELECT Year, Revenue FROM netflix";
 
     // Execute the query, or else return the error message.
     $resultNetflix = $dbhandle->query($strQueryNetflix) or exit("Error code ({$dbhandle->errno}): {$dbhandle->error}");
